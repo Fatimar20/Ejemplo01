@@ -1,0 +1,40 @@
+Renteria@DESKTOP-467A5AK MINGW64 /d/Procesador_de_señales (main)
+$ touch Tarea_repositorio/main.c                                       //Para crear un archivo main en la carpeta
+
+Renteria@DESKTOP-467A5AK MINGW64 /d/Procesador_de_señales (main)
+$ git remote add origin https://github.com/Fatimar20/Tarea1_reporitorio.git //Primer liena que copiamos al crear un repositorio nuevo
+error: remote origin already exists.
+
+Renteria@DESKTOP-467A5AK MINGW64 /d/Procesador_de_señales (main)
+$ git branch -M main                                                            //Segunda linea que se copea
+
+Renteria@DESKTOP-467A5AK MINGW64 /d/Procesador_de_señales (main)
+$ git push -u origin main                                                    //Tercer linea que se copea
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+Renteria@DESKTOP-467A5AK MINGW64 /d/Procesador_de_señales (main)
+$ git push --all                                                              //Comando para vincular el archivo
+Everything up-to-date
+
+Renteria@DESKTOP-467A5AK MINGW64 /d/Procesador_de_señales (main)
+$ git add .                                                               //Si es que no funciona el comando anterior
+                                                                          //Podemos anadir la carpeta de esta forma
+Renteria@DESKTOP-467A5AK MINGW64 /d/Procesador_de_señales (main)
+$ git commit -m 'Revision de Practicas'                                  //Se le asigna la descripcion
+[main 00aaf01] Revision de Practicas
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Tarea_repositorio/main.c
+
+Renteria@DESKTOP-467A5AK MINGW64 /d/Procesador_de_señales (main)
+$ git push --all                                                        //Se vuelve a vinvular el archivo
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 341 bytes | 341.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Fatimar20/Ejemplo01.git
+   54c9c53..00aaf01  main -> main
+
+Renteria@DESKTOP-467A5AK MINGW64 /d/Procesador_de_señales (main)
